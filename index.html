@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="style.css">
+          <script   src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+         <button class="btn">
+          <svg height="48" id="tee" class="cloth" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><defs><style>
+                    .vi-primary {
+                      fill: #FF6E6E;
+                    }
+              
+                    .vi-primary, .vi-accent {
+                      fill-rule: evenodd;
+                    }
+              
+                    .vi-accent {
+                      fill: #0C0058;
+                    }
+                  </style></defs><path class="vi-primary" d="M37,22l-3-3V41H14V19l-3,3L6,17,14.952,7h18.1L42,17Z"/><path class="vi-accent" d="M18,7H30A6,6,0,0,1,18,7ZM14,39H34v2H14V39Z"/></svg>
+          <svg id="Layer_1" class="tv" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><style type="text/css">
+                    .st0{fill:#2B79C2;}
+                    .st1{fill:#3B4652;}
+          </style><g><path class="st0" d="M449.5,50.4H62.5c-14,0-25.4,11.4-25.4,25.4V276H475V75.8C475,61.8,463.6,50.4,449.5,50.4z M127.5,174.5   c-1.8,0-3.6-0.7-4.9-2c-2.7-2.7-2.7-7.2,0-9.9l63.3-63.3c2.7-2.7,7.2-2.7,9.9,0c2.7,2.7,2.7,7.2,0,9.9l-63.3,63.3   C131.1,173.8,129.3,174.5,127.5,174.5z M184.7,244.8c-1.8,0-3.6-0.7-5-2c-2.7-2.7-2.7-7.2,0-9.9L319.6,93c2.7-2.7,7.2-2.7,9.9,0   c2.7,2.7,2.7,7.2,0,9.9L189.6,242.8C188.3,244.1,186.5,244.8,184.7,244.8z M389.5,172.8L324,238.3c-1.4,1.4-3.2,2-5,2   s-3.6-0.7-4.9-2c-2.7-2.7-2.7-7.2,0-9.9l65.5-65.5c2.7-2.7,7.2-2.7,9.9,0C392.2,165.7,392.2,170.1,389.5,172.8z"/><path class="st1" d="M301.9,369.6h-91.7c-6.2,28.8-26.3,92.1-83.8,92.1h259.3C328.2,461.6,308,398.4,301.9,369.6z"/><path class="st1" d="M37,330.1c0,6.5,2.4,12.4,6.5,16.9c3,3.3,6.8,5.9,11.1,7.3c2.5,0.8,5.1,1.2,7.8,1.2h387.1   c2.7,0,5.4-0.4,7.8-1.2c4.3-1.4,8.2-3.9,11.1-7.3c4-4.5,6.5-10.4,6.5-16.9V290H37V330.1z M256.5,309.6c7.3,0,13.2,5.9,13.2,13.2   c0,7.3-5.9,13.2-13.2,13.2c-7.3,0-13.2-5.9-13.2-13.2C243.3,315.5,249.2,309.6,256.5,309.6z"/></g></svg>
+                    <span class="text">Add To Cart</span>
+                    <svg class="add" height="20px" viewBox="0 0 1792 1792" width="20px" xmlns="http://www.w3.org/2000/svg"><path d="M704 1536q0 52-38 90t-90 38-90-38-38-90 38-90 90-38 90 38 38 90zm896 0q0 52-38 90t-90 38-90-38-38-90 38-90 90-38 90 38 38 90zm128-1088v512q0 24-16.5 42.5t-40.5 21.5l-1044 122q13 60 13 70 0 16-24 64h920q26 0 45 19t19 45-19 45-45 19h-1024q-26 0-45-19t-19-45q0-11 8-31.5t16-36 21.5-40 15.5-29.5l-177-823h-204q-26 0-45-19t-19-45 19-45 45-19h256q16 0 28.5 6.5t19.5 15.5 13 24.5 8 26 5.5 29.5 4.5 26h1201q26 0 45 19t19 45z"/></svg>
+         </button> 
+         <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script> -->
+<script>
+          $(document).ready(function(){
+                    $(".btn").click(function () {
+                              $(".add").toggleClass("active")
+                              $(".btn").toggleClass("active")
+                              $(".text").toggleClass("active")
+                              $(".line").toggleClass("active")
+                              $(".cloth").toggleClass("active")
+                              $(".tv")("active")
+                    })
+
+          })
+</script>
+</body>
+</html>
